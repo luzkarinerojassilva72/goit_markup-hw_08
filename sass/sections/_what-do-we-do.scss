@@ -1,0 +1,35 @@
+.container__What__do__we__do{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.What__do__we__do__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .What__do__we__do__item {
+    flex-basis: calc((100% - 90px) / 3);
+    position: relative;
+  }
+  .What__do__we__do__item__text{
+    font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+    color:$background-color-white;
+    padding: 27px;
+  }
+  .What__do__we__do__item__subtitle{
+    position: absolute;
+  width: 370px;
+  height: 70px;
+  align-items: center ;
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 1%;
+  }

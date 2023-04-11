@@ -1,0 +1,420 @@
+@media (max-width: 1200px) {
+  .menu-container{
+    display: none;
+  }
+ 
+  @media (max-width: 768px) {
+    .header__container {
+      gap: 93px;
+      width: 768px;
+    }
+
+    .header__nabvar__list {
+      gap: 50px;
+    }
+
+    .header__contact__list {
+      flex-direction: column;
+      gap: 0%;
+      align-items: flex-start;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.02em;
+    }
+
+    /*-------HERO-----------*/
+    .hero {
+      width: 768px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-content: center;
+    }
+
+    .hero__title {
+      width: 360px;
+      height: 84px;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 42px;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /*-----------------ouradvantages-------------------*/
+    .our__advantages__list {
+      
+      width: 768px;
+    }
+
+    .our__advantages__benefits {
+      width: 354px;
+      height: 120px;
+      display: flex;
+    }
+
+    /*-----------------What__do__we__do-------------------*/
+    .What__do__we__do {
+      display: none;
+    }
+
+    /*-----------------our__team-------------------*/
+    .our__team {
+      width: 768px;
+    }
+    .container__our__team{
+      width: 768px;
+    }
+
+    .our__team__list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 30px;
+
+    }
+
+    .our__team__item {
+      width: 354px;
+      height: 536px;
+    }
+
+    .our__team__images {
+      width: 354px;
+      height: 374px;
+    }
+
+    /*-----------------regular__clients-------------------*/
+
+    .regular__clients{
+      width: 768px;
+    }
+    .container__regular__clients {
+      width: 768px;
+    }
+    .regular__clients__list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 30px;
+      
+    }
+
+    .regular__clients__icons {
+      width: 210px;
+      height: 92px;
+    }
+
+    /*-----------------footer-------------------*/
+
+    .footer {
+      width: 768px;
+    }
+    .footer__container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 89px;
+      width: 768px;
+      height: 464px;
+      gap: 70px;
+    }
+
+    .footer__information {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .address {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 232px;
+      height: 72px;
+    }
+
+    .footer__address {
+      text-align: center;
+    }
+
+    .find__us__at {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 206px;
+      height: 80px;
+    }
+
+    .subscribe {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .subscribe__title {
+      margin: 0%;
+    }
+
+    @media (max-width: 480px) {
+      .page__header {
+        display: flex;
+        align-items: center;
+        position: relative;
+
+
+        .header__container {
+          width: 480px;
+          height: 60px;
+          left: 15px;
+
+
+          .header__nabvar {
+            display: none;
+          }
+
+          .header__contact__list {
+            display: none;
+          }
+        }
+        /*------------------Hamburguesa-------------------*/
+
+      .menu-container {
+        display: block;
+      }
+
+      .menu-toggle {
+        position: absolute;
+        left: 425px;
+        display: block;
+      }
+
+      .menu-container .menu-toggle {
+        display: block;
+      }
+
+      .menu-container.is-open {
+        transform: translateX(0);
+      }
+
+      .mobile__menu__link--current {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: 0.02em;
+        color: #2196f3;
+      }
+      .mobile__menu__link {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: 0.02em;
+        color: #212121;
+      }
+  
+      .mobil__menu__contact__list {
+        margin-bottom: 306px;
+      }
+  
+      .mobil__menu__contact__link {
+        display: block;
+        text-decoration: none;
+        width: 296px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        color: #757575;
+      }
+
+
+      }
+
+      
+  
+      /*------------------HERO-------------------*/
+  
+      .hero {
+        width: 480px;
+        height: 400px;
+        align-items: center;
+      }
+  
+      .hero__title {
+        width: 360px;
+        height: 84px;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+  
+      .hero__button {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #ffffff;
+      }
+  
+      /*-----------------ouradvantages-------------------*/
+      .container{
+        width: 480px;
+      }
+      .our__advantages__list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        left: 15px;
+        justify-content: space-between;
+        width: 480px;
+      }
+  
+      .our__advantages__benefits {
+        width: 450px;
+        height: 120px;
+        left: 15px;
+        top: 520px;
+      }
+  
+      .our__advantages__title {
+        width: 270px;
+        height: 16px;
+        left: 105px;
+        text-align: center;
+        letter-spacing: 0.03em;
+      }
+  
+      .our__advantages__pagraph {
+        width: 450px;
+        height: 50px;
+        left: 15px;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.03em;
+      }
+  
+      /*-----------------our__team-------------------*/
+      .our__team {
+        width: 480px;
+      }
+      .container__our__team {
+        width: 480px;
+      }
+  
+      .section__title {
+        width: 314px;
+        height: 33px;
+        font-size: 28px;
+        text-align: center;
+        letter-spacing: 0.03em;
+      }
+  
+      .our__team__list {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+      }
+  
+      .our__team__item {
+        width: 450px;
+        height: 622px;
+      }
+  
+      .our__team__images {
+        width: 450px;
+        height: 460px;
+      }
+  
+      /*-----------------regular__clients-------------------*/
+      .regular__clients{
+        width: 480px;
+      }
+      .container__regular__clients {
+        width: 480px;
+      }
+  
+      .regular__clients__list {
+       
+        justify-content: space-between;
+       
+      }
+  
+      .regular__clients__icons {
+        width: 210px;
+        height: 92px;
+      }
+  
+      /*-----------------footer-------------------*/
+      .footer {
+        width: 480px;
+      }
+  
+      .footer__container {
+        justify-content: center;
+        width: 480px;
+        height: 604px;
+        gap: 70px;
+      }
+  
+      .footer__information {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+  
+      .address {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 232px;
+        height: 72px;
+      }
+  
+      .footer__address {
+        text-align: center;
+      }
+  
+      .find__us__at {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 206px;
+        height: 80px;
+      }
+  
+      .subscribe {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+  
+      .subscribe__title {
+        margin: 0%;
+      }
+    }
+
+    
+  }
+}
+
+
+/*-----------------Mobile-------------------*/

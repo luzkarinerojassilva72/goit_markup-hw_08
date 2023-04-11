@@ -1,0 +1,59 @@
+    .carrusel__portafolio {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .carrusel__portafolio__items {
+    flex-basis: calc((100% - 90px) / 3);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  .carrusel__portafolio__overlay {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carrusel__portafolio__overlay:hover .carrusel__portafolio__effect {
+    transform: translateX(0);
+  }
+  
+  .carrusel__portafolio__effect {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 63px 24px;
+    background-color: $accent-color;
+    transform: translateY(100%);
+    transition: transform 250ms ease;
+  }
+  .carrusel__portafolio__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $primary-white-color;
+  }
+  
+  .carrusel__portafolio__proyect {
+    display: block;
+    padding: 20px 24px;
+  }
+  
+  .carrusel__portafolio__title {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    color: $primary-black-color;
+  }
+
+  .carrusel__portafolio__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: $primary-gray-color;
+  }

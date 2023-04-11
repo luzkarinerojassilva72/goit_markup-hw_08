@@ -1,0 +1,35 @@
+.container__regular__clients{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.regular__clients__list {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+
+.regular__clients__icons {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 170px;
+    height: 81px;
+  border: 1px solid #afb1b8;
+  border-radius: 5px;
+    cursor: pointer;
+}
+
+.regular__clients__icons {
+  fill: $primary-gray-color;
+}
+
+.regular__clients__icons:hover {
+  fill: $accent-color;
+  border-color: $accent-color;
+}
+

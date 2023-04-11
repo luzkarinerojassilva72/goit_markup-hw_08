@@ -1,0 +1,95 @@
+.footer {
+    background-color: $background-color-dark;
+    padding: 60px 0;
+  }
+  .footer__container{
+    display: flex;
+    gap: 50px;
+    width: 1200px;
+    justify-content: space-between;
+  }
+  
+  .footer__address {
+    font-weight: 400;
+    color: $primary-white-color;
+    text-decoration: none;
+    width: 231px;
+    display: inline-block;
+  }
+  
+  .footer__contact {
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    line-height: 1.71;
+    font-style: normal;
+    color: $text-white-opacity;
+  }
+  .find__us__at__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  .find__us__at__list {
+    display: flex;
+    gap: 20px;
+  }
+  .find__us__at__item__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    fill: $primary-white-color;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .find__us__at__item__icon:hover {
+    background-color: $accent-color;
+  }
+  .footer__contact:hover,
+  .footer__contact:focus {
+    color: $accent-color;
+  }
+  .subscribe__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe__input__correo {
+    width: 358px;
+  height: 50px;
+  left: 815px;
+  top: 1736px;
+  padding: 16px;
+  background-color: $background-color-dark;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  }
+  
+  .subscribe__button {
+  width: 200px;
+  height: 50px;
+  top: 1736px;
+  color:$primary-white-color;
+  background: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  }
+  
+  .subscribe__icon {
+    width: 24px;
+    height: 15px;
+    right: 50px;
+    left: 1333px;
+  }

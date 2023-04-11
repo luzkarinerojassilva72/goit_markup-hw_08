@@ -1,0 +1,36 @@
+.button__portafolio__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 10px;
+  }
+  
+  .button__portafolio__list .filter {
+    font-weight: 500;
+    font-size: 16px;
+    color: $primary-white-color;
+    text-decoration: none;
+    background-color: $accent-color;
+  }
+  
+  .button__portafolio__items:hover {
+    background-color: $accent-color;
+  }
+  
+  .button__portafolio__items {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Roboto';
+    color: $primary-black-color;
+    padding: 6px 22px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .button .current {
+    background-color: $accent-color;
+  }

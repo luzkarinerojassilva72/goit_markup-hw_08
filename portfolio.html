@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="./sass/main2.css" />
+  <title>WebStudio</title>
+</head>
+
+<body>
+  <header class="page__header">
+    <div class="container header__container">
+      <a class="logo" href="./index.html">Webstudio</a>
+      <nav class="header__nabvar">
+        <ul class="header__nabvar__list">
+          <li class="header__nabvar__item">
+            <a class="header__nabvar__link " href="./index.html">Estudio</a>
+          </li>
+          <li class="header__nabvar__item">
+            <a class="header__nabvar__link header__nabvar__link--current" href="./portfolio.html">Portafolio</a>
+          </li>
+          <li class="header__nabvar__item">
+            <a class="header__nabvar__link" href="./index.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header__contact__list">
+        <li class="header__contact__item">
+          <a class="header__contact__link" href="#">
+            <svg class="header__contact__icon" width="16" height="12">
+              <use href="./images/sprites.svg#sobre"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+        </li>
+        <li class="header__contact__item">
+          <a class="header__contact__link" href="#">
+            <svg class="header__contact__icon" width="16" height="12">
+              <use href="./images/sprites.svg#telefono"></use>
+            </svg>
+            +52 55 5529 60 00
+          </a>
+        </li>
+      </ul>
+    </div>
+  <!--------------------------MENU HAMBURGESA------------------->
+  <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+    <svg width="40" height="40" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+        clip-rule="evenodd"></path>
+    </svg>
+  </button>
+  <!------------------------------ MENU HAMBURGESA --------------------- -->
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+        <path fill-rule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+
+    <ul class="mobile__menu__list">
+      <li class="mobile__menu__item">
+        <a class="mobile__menu__link--current" href="./index.html">Estudio</a></li>
+      <li class="mobile__menu__item">
+        <a class="mobile__menu__link" href="./portfolio.html">Portafolio</a></li>
+        <li class="mobile__menu__item">
+          <a class="mobile__menu__link" href= "./index.html">Contacto</a></li>
+        </ul>
+        <ul class="mobil__menu__contact__list">
+          <li class="mobil__menu__contact__item">
+            <a  class="mobil__menu__contact__link" href="tel +52 55 5529 60 00">+52 55 5529 60 00</a>
+          </li>
+      <li class="mobil__correo__item">
+        <a  class="mobil__menu__contact__link" href="maito:info@devstudio.com">info@devstudio.com</a>
+      </li>
+    </ul>
+  </div>
+  </header>
+
+  <main>
+    <section class="portafolio section">
+      <div class="container">
+        <h2 hidden>Portafolio</h2>
+        <ul class="button__portafolio__list">
+          <li><button class="button__portafolio__items filter" type="button">Todo</button></li>
+          <li><button class="button__portafolio__items" type="button">Sitios-Web</button></li>
+          <li><button class="button__portafolio__items" type="button">Aplicaciones</button></li>
+          <li><button class="button__portafolio__items" type="button">Diseño</button></li>
+          <li><button class="button__portafolio__items" type="button">Marketing</button></li>
+        </ul>
+
+        <ul class="carrusel__portafolio">
+          <li class="carrusel__portafolio__items">
+            <a class="carrusel__portafoli__link" href="">
+              <div class="carrusel__portafolio__overlay">
+                <img src="./images/Portafolio_01.jpg" width="340" alt="computador" />
+                <div class="carrusel__portafolio__effect">
+                  <p class="carrusel__portafolio__text">
+                    Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan
+                    esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.
+                  </p>
+                </div>
+              </div>
+              <div class="carrusel__portafolio__proyect">
+                <h3 class="carrusel__portafolio__title">Tecnoduck</h3>
+                <p class="carrusel__portafolio__description">Sitio-web</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="carrusel__portafolio__items">
+            <a class="carrusel__portafoli__link" href="">
+              <div class="carrusel__portafolio__overlay">
+                <img src="./images/Portafolio_02.jpg" width="340" alt="" />
+                <div class="carrusel__portafolio__effect">
+                  <p class="carrusel__portafolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vero nulla fuga. Commodi obcaecati
+                    accusamus aspernatur molestiae, facilis dolorum, magni molestias distinctio officia labore
+                    similique, et ducimus culpa adipisci sapiente
+                  </p>
+                </div>
+              </div>
+              <div class="carrusel__portafolio__proyect">
+                <h3 class="carrusel__portafolio__title">Póster de Nueva Orleans vs Estrella Dorada</h3>
+                <p class="carrusel__portafolio__description">Diseño</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="carrusel__portafolio__items">
+            <a class="carrusel__portafoli__link" href="">
+              <div class="carrusel__portafolio__overlay">
+                <img src="./images/Portafolio_03.jpg" width="340" alt="" />
+                <div class="carrusel__portafolio__effect">
+                  <p class="carrusel__portafolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vero nulla fuga. Commodi obcaecati
+                    accusamus aspernatur molestiae, facilis dolorum, magni molestias distinctio officia labore
+                    similique, et ducimus culpa adipisci sapiente
+                  </p>
+                </div>
+              </div>
+              <div class="carrusel__portafolio__proyect">
+                <h3 class="carrusel__portafolio__title">Restaurante Seafood</h3>
+                <p class="carrusel__portafolio__description">Aplicaciones</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="carrusel__portafolio__items">
+            <a class="carrusel__portafoli__link" href="">
+              <div class="carrusel__portafolio__overlay">
+                <img src="./images/Portafolio_04.jpg" width="340" alt="" />
+                <div class="carrusel__portafolio__effect">
+                  <p class="carrusel__portafolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vero nulla fuga. Commodi obcaecati
+                    accusamus aspernatur molestiae, facilis dolorum, magni molestias distinctio officia labore
+                    similique, et ducimus culpa adipisci sapiente
+                  </p>
+                </div>
+              </div>
+              <div class="carrusel__portafolio__proyect">
+                <h3 class="carrusel__portafolio__title">Proyecto Prime</h3>
+                <p class="carrusel__portafolio__description">Marketing</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="carrusel__portafolio__items">
+            <a class="carrusel__portafoli__link" href="">
+              <div class="carrusel__portafolio__overlay">
+                <img src="./images/Portafolio_05.jpg" width="340" alt="" />
+                <div class="carrusel__portafolio__effect">
+                  <p class="carrusel__portafolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vero nulla fuga. Commodi obcaecati
+                    accusamus aspernatur molestiae, facilis dolorum, magni molestias distinctio officia labore
+                    similique, et ducimus culpa adipisci sapiente
+                  </p>
+                </div>
+              </div>
+              <div class="carrusel__portafolio__proyect">
+                <h3 class="carrusel__portafolio__title">Proyecto Cajas</h3>
+                <p class="carrusel__portafolio__description">Aplicaciones</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="carrusel__portafolio__items">
+            <a class="carrusel__portafoli__link" href="">
+              <div class="carrusel__portafolio__overlay">
+                <img src="./images/Portafolio_06.jpg" width="340" alt="" />
+                <div class="carrusel__portafolio__effect">
+                  <p class="carrusel__portafolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vero nulla fuga. Commodi obcaecati
+                    accusamus aspernatur molestiae, facilis dolorum, magni molestias distinctio officia labore
+                    similique, et ducimus culpa adipisci sapiente
+                  </p>
+                </div>
+              </div>
+              <div class="carrusel__portafolio__proyect">
+                <h3 class="carrusel__portafolio__title">La inspiración no tiene límites</h3>
+                <p class="carrusel__portafolio__description">Sitio-web</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="carrusel__portafolio__items">
+            <a class="carrusel__portafoli__link" href="">
+              <div class="carrusel__portafolio__overlay">
+                <img src="./images/Portafolio_07.jpg" width="340" alt="" />
+                <div class="carrusel__portafolio__effect">
+                  <p class="carrusel__portafolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vero nulla fuga. Commodi obcaecati
+                    accusamus aspernatur molestiae, facilis dolorum, magni molestias distinctio officia labore
+                    similique, et ducimus culpa adipisci sapiente
+                  </p>
+                </div>
+              </div>
+              <div class="carrusel__portafolio__proyect">
+                <h3 class="carrusel__portafolio__title">Edición Limitada</h3>
+                <p class="carrusel__portafolio__description">Diseño</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="carrusel__portafolio__items">
+            <a class="carrusel__portafoli__link" href="">
+              <div class="carrusel__portafolio__overlay">
+                <img src="./images/Portafolio_08.jpg" width="340" alt="" />
+                <div class="carrusel__portafolio__effect">
+                  <p class="carrusel__portafolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vero nulla fuga. Commodi obcaecati
+                    accusamus aspernatur molestiae, facilis dolorum, magni molestias distinctio officia labore
+                    similique, et ducimus culpa adipisci sapiente
+                  </p>
+                </div>
+              </div>
+              <div class="carrusel__portafolio__proyect">
+                <h3 class="carrusel__portafolio__title">Proyecto LAB</h3>
+                <p class="carrusel__portafolio__description">Marketing</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="carrusel__portafolio__items">
+            <a class="carrusel__portafoli__link" href="">
+              <div class="carrusel__portafolio__overlay">
+                <img src="./images/Portafolio_09.jpg" width="340" alt="" />
+                <div class="carrusel__portafolio__effect">
+                  <p class="carrusel__portafolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vero nulla fuga. Commodi obcaecati
+                    accusamus aspernatur molestiae, facilis dolorum, magni molestias distinctio officia labore
+                    similique, et ducimus culpa adipisci sapiente
+                  </p>
+                </div>
+              </div>
+              <div class="carrusel__portafolio__proyect">
+                <h3 class="carrusel__portafolio__title">Negocio en Crecimiento</h3>
+                <p class="carrusel__portafolio__description">Aplicaciones</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div>
+        <a class="logo" href="./index.html">Webstudio</a>
+        <address>
+          <a class="footer__address" href="#">Calz. Ticomán 500, Ciudad de México, CDMX, México</a>
+        </address>
+        <ul>
+          <li><a class="footer__contact" href="#">info@example.com</a></li>
+          <li><a class="footer__contact" href="#"> +52 55 5529 6000</a></li>
+        </ul>
+      </div>
+      <div class="find__us__at">
+        <h2 class="find__us__at__title">encuentrenos en</h2>
+        <ul class="find__us__at__list">
+          <li>
+            <a href="" class="find__us__at__item__icon">
+              <svg width="20" height="20">
+                <use href="./images/sprites.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="find__us__at__item__icon">
+              <svg width="20" height="20">
+                <use href=" ./images/sprites.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="find__us__at__item__icon">
+              <svg width="20" height="20">
+                <use href="./images/sprites.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="find__us__at__item__icon">
+              <svg width="20" height="20">
+                <use href="./images/sprites.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+
+        <form class="subscribe">
+          <h2 class="subscribe__title">SUSCRIBASE AL BOLETIN DEL INFORMATIVO</h2>
+          <label for="email">
+            <input class="subscribe__input__correo" type="email" name="email" autofocus placeholder="correo electronico">
+            
+          </label>
+          <button class="subscribe__button" type="submit">Suscribase
+            <svg class="subscribe__icon" width="16" height="12">
+              <use href="./images/sprites.svg#enviar-cono"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <script
+  defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+  crossorigin="anonymous"
+></script>
+<script defer src="js/mobil.js"></script>
+</body>
+
+</html>

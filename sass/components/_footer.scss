@@ -1,12 +1,12 @@
 .footer {
     background-color: $background-color-dark;
-    padding: 60px 0;
+    padding: 94px calc((100% - 1200px) / 2);
   }
   .footer__container{
     display: flex;
-    gap: 50px;
-    width: 1200px;
     justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
   }
   
   .footer__address {

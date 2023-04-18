@@ -1,2 +1,2 @@
-# goit-markup-hw-06
-https://luzkarinerojassilva72.github.io/goit-markup-hw-06/
+tarea 8
+# goit-markup-hw-06https://luzkarinerojassilva72.github.io/goit_markup-hw_08/
